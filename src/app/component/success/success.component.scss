@@ -1,0 +1,21 @@
+@import "../../../styles/variable.scss";
+
+.success {
+  position: absolute;
+  top: 10px;
+  background-color: $Grey900;
+  color: $White;
+  padding: 1rem;
+  border-radius: 1rem;
+  h2 {
+    display: flex;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    img {
+      margin-right: 0.5rem;
+    }
+  }
+  p {
+    font-size: 1rem;
+  }
+}
